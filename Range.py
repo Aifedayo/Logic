@@ -8,4 +8,4 @@ def ran_check(num, low, high):
     else:
         print(f'{num} is outside the range')
 
-ran_check(5,2,7)
+ran_check(5,2,9)
