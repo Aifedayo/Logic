@@ -9,7 +9,7 @@ def multiply_list(mylist):
         total_multiple *= num
         total_sum += num
     print(f'Here is the total multiplies of the list: {total_multiple}')
-    print(f'Here is the total sum of the list: {total_sum})
+    print(f'Here is the total sum of the list: {total_sum}')
 
 
 mylist = [1,2,4,5]
