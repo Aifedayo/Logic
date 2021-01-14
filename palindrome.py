@@ -5,9 +5,9 @@ or phrase is palindrome or not
 
 def palindrome(string):
     new_string = string.replace(' ','')
-    if string == string[::-1]:
+    if new_string == new_string[::-1]:
         print(f'{string} is a palindrome')
     else:
         print(f'{string} is not a palindrome')
 
-palindrome('vata')
+palindrome(input('Enter a string here: '))
