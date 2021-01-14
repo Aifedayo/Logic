@@ -6,6 +6,8 @@ or phrase is palindrome or not
 def palindrome(string):
     new_string = string.replace(' ','')
     if string == string[::-1]:
-        return f'{string} is a palindrome'
+        print(f'{string} is a palindrome')
+    else:
+        print(f'{string} is not a palindrome')
 
-palindrome('madam')
+palindrome('vata')
