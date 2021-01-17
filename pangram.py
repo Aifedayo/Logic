@@ -8,6 +8,7 @@ def pangram(str1):
     alphaset = set(alphabet)
     mystr1 = set(str1)
     print(mystr1)
+    print(alphaset)
     if mystr1 == alphaset:
         print(f'{str1} is a pangram')
     else:
