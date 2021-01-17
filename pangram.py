@@ -6,6 +6,11 @@ import string
 def pangram(str1):
     alphabet = string.ascii_lowercase
     alphaset = set(alphabet)
-    #print(alphabet)
+    mystr1 = set(str1)
+    print(mystr1)
+    if mystr1 == alphaset:
+        print(f'{str1} is a pangram')
+    else:
+        print(f'{str1} is not a pangram')
 
-pangram(str1='Hello')
+pangram(str1='The quick brown fox jumps over the lazy dog')
