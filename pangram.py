@@ -7,7 +7,7 @@ def pangram(str1):
     alphabet = string.ascii_lowercase
     alphaset = set(alphabet)
     mystr1 = set(str1.replace(' ','').lower())
-    print(mystr1)
+
     if mystr1 == alphaset:
         print(f'{str1} is a pangram')
     else:
