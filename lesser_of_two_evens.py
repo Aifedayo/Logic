@@ -4,4 +4,5 @@ numbers if both numbers are even, but greater if
 one or both numbers are old
 """
 
-def lesser_of_even(number)
+def lesser_of_even(number1, number2):
+    
