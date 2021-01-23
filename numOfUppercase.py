@@ -15,4 +15,3 @@ def upper_lower(mystring):
     print(mydict)
 
 upper_lower('Hello Mr. Rogers, how are you this fine Tuesday')
-        
