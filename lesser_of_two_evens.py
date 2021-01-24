@@ -5,4 +5,7 @@ one or both numbers are old
 """
 
 def lesser_of_even(number1, number2):
-    
+    if number1 and number2 % 2 == 0:
+        print(f'{number1} is the lesser of the two evens')
+
+lesser_of_even(2,4)
