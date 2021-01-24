@@ -6,6 +6,8 @@ one or both numbers are old
 
 def lesser_of_even(number1, number2):
     if number1 and number2 % 2 == 0:
-        print(f'{number1} is the lesser of the two evens')
+        print(min(number1, number2))
+    else:
+        print(max(number1, number2))
 
-lesser_of_even(2,4)
+lesser_of_even(1,3)
