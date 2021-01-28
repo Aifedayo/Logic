@@ -1,5 +1,5 @@
 """
-A function that takes two-word string and returns
+A function that takes two strings and returns
 True if both words begin with the same letter
 """
 
