@@ -4,10 +4,10 @@ True if both words begin with the same letter
 """
 
 def animal_cracker(string):
-    string = string.lower()
-    mystring = string.split(' ')
+    mystring = string.lower().split(' ')
     if mystring[0][0] == mystring[1][0]:
         print(f'{mystring} both have the same beginning letter')
     else:
         print(f'{mystring} does not have the same beginning letter')
+
 animal_cracker('Levelhead llama')
