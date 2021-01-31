@@ -5,6 +5,7 @@ True if both words begin with the same letter
 
 def animal_cracker(string):
     mystring = string.lower().split(' ')
+    
     if mystring[0][0] == mystring[1][0]:
         print(f'{mystring} both have the same beginning letter')
     else:
