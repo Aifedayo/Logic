@@ -1,8 +1,7 @@
-"""
-A function to multiply all numbers in a list
-"""
-
 def multiply_list(mylist):
+    """
+    A function to multiply all numbers in a list
+    """
     total_multiple = 1
     total_sum = 0
     for num in mylist:
