@@ -1,7 +1,7 @@
-"""
-Fibonacci Sequence to Infinity
-"""
 def Fib():
+    """
+    Fibonacci Sequence to Infinity
+    """
     a,b = 0,1
     while True:
         yield a
