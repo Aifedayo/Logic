@@ -1,9 +1,9 @@
-"""
-A function to check if a string is pangram or not
-"""
 import string
 
 def pangram(str1):
+    """
+    A function to check if a string is pangram or not
+    """
     alphabet = string.ascii_lowercase
     alphaset = set(alphabet)
     mystr1 = set(str1.replace(' ','').lower())
