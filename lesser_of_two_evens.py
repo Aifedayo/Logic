@@ -1,10 +1,10 @@
-"""
-A function that returns the lesser of two given
-numbers if both numbers are even, but greater if
-one or both numbers are old
-"""
-
 def lesser_of_even(number1, number2):
+    """
+    A function that returns the lesser of two given
+    numbers if both numbers are even, but greater if
+    one or both numbers are old
+    """
+
     if number1 and number2 % 2 == 0:
         print(min(number1, number2))
     else:
