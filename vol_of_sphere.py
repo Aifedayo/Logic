@@ -1,8 +1,8 @@
-"""
-A function for calculating the volume of a Sphere
-"""
-
 def vol_of_sphere(rad):
+    """
+    A function for calculating the volume of a Sphere
+    """
+
     return ((4/3)*(3.14)*(rad**3))
 
 vol_of_sphere(int(input('Enter the radius of the sphere: ')))
