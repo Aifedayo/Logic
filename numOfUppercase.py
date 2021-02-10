@@ -1,9 +1,8 @@
-"""
-A function that accepts a string and calculate
-the number of uppercase and lowercase in it
-"""
-
 def upper_lower(mystring):
+    """
+    A function that accepts a string and calculate
+    the number of uppercase and lowercase in it
+    """
     mydict = {'upper': 0, 'lower': 0}
     for string in mystring:
         if string.isupper():
