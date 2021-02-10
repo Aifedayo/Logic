@@ -1,10 +1,10 @@
-"""
-A python list that returns a unique list
-Sample List : [1,1,1,1,2,2,3,3,3,3,4,5]
-Unique List : [1,2,3,4,5]
-"""
-
 def unique_list2(mylist):
+    """
+    A python list that returns a unique list
+    Sample List : [1,1,1,1,2,2,3,3,3,3,4,5]
+    Unique List : [1,2,3,4,5]
+    """
+
     newlist = []
     for num in mylist:
         if num not in newlist:
