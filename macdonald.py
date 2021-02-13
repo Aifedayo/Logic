@@ -1,2 +1,4 @@
 def macdonald(str):
-    pass
+    """
+    A function that capitalizes the first and fourth letters
+    """
